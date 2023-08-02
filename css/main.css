@@ -1,0 +1,61 @@
+section{
+    background-image: url(../img/Layer\ 1.png);
+    background-size: cover  ;
+    width: 100%;
+    height:120vh ;
+    background-attachment: fixed;
+    background-position: center;
+    overflow: auto;
+}
+section .home{
+    text-align: center;
+    margin-top: 100px;
+}
+section .home .write>h1{
+    color:white ;
+    font-size: 75px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+section .home .write p{
+    color: black;
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+section .home img{
+    width: 22.5%;
+}
+section .history{
+    display: flex;
+    justify-content: center;
+
+}
+section .history div{
+    text-align: center;
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0.75);
+    margin:7px 12px ;
+    padding: 20px 5px;
+    border-top: solid red 7px ;
+}
+section .history div p{
+color: white;
+font-size: 20px;
+margin-top: 20px;
+}
+section .history div h1{
+    color: white;
+font-size: 40px;
+}
+.bar{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 22px 0px;
+}
+.bar img{
+    width: 120px; 
+    height: 14px;
+    margin-left: 5px;
+
+}
